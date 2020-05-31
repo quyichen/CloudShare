@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,inital-scale=1,user-scalable=no">
+    <title>CloudShare</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        .L_section{
+            text-align: center;
+        }
+        .L_head_img{
+            margin-top: 50px;
+        }
+        .L_form_div{
+            background: white;
+            width:90%;
+            margin:0 auto;
+            border:1px solid #cccccc;
+            border-radius: 5px;
+            height: 100px;
+            margin-top: 30px;
+        }
+        .L_form_div div span{
+            font-size: 20px;
+            padding-left: 15px;
+            line-height: 50px;
+        }
+        .L_account_div{
+            height: 50px;
+            border-bottom: 1px solid #cccccc;
+        }
+        input{
+            outline: medium;
+            background-color: transparent;
+            border:0;
+        }
+        .Login_btn_div{
+            height:50px;
+            background: rgb(36,92,161);
+            width: 90%;
+            border-radius: 10px;
+            margin:20px auto;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .Login_btn_div input{
+            line-height: 50px;
+            font-size:20px;
+            color:white;
+        }
+        .L_login_style .Login_style{
+            display: table;
+            width:100%;
+            height: 20px;
+            left:0;
+            margin-top: 150px;
+        }
+       .L_login_style .Login_style a{
+            display: table-cell;
+            width:33.3%;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+        }
+        .L_login_style .Login_style a span{
+            display:block;
+            font-size:5px;
+            color:black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!--第一部分-->
+<header>
+    <span>云享资源</span>
+</header>
+<!--第二部分-->
+<section class="L_section">
+    <img class="L_head_img" src="resources/head.png">
+</section>
+<!--第三部分-->
+<form>
+    <div class="L_form_div">
+        <div class="L_account_div">
+       <span>账号</span>
+        <input class="" type="text" name="acount" id="l_account"><br>
+        </div>
+        <div>
+        <span>密码</span>
+        <input class="" type="password" name="password" id="l_password"><br>
+        </div>
+        <div class="Login_btn_div">
+        <input id="login_btn" type="button" value="登录">
+        </div>
+    </div>
+
+</form>
+<section class="L_login_style">
+    <div class="Login_style">
+        <a href="" >
+            <img src="resources/qq.png">
+            <span>QQ登录</span>
+        </a>
+        <a href="">
+            <img src="resources/wechat.png">
+            <span>微信登录</span>
+        </a>
+        <a href="">
+            <img src="resources/register.png">
+            <span>注册</span>
+        </a>
+    </div>
+</section>
+</body>
+</html>
